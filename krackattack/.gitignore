@@ -1,1 +1,3 @@
-
+*.log
+*.conf
+*.pcap

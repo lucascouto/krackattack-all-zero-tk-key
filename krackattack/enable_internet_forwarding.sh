@@ -19,5 +19,5 @@ iptables -A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 iptables -A FORWARD -i $REPEATER -o $INTERNET -j ACCEPT
 
 #Starting DHCP and DNS service
-dnsmasq -d -C dnsmasq.conf &> dnsmasq_log
+dnsmasq -d -C dnsmasq.conf &> dnsmasq.log
 
