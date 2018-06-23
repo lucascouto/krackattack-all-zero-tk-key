@@ -51,6 +51,7 @@ Then **disable hardware encryption** using the script ./disable-hwcrypto.sh. It'
  * After disabling the Wi-Fi, run the command: `$rfkill unblock wifi`!
  
  **Files Generated**
+ 
  After running the script for the first time, some new files will be generated:
  
  * `dnsmasq.conf`: configuration file for DHCP and DNS services
