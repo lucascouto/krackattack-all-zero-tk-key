@@ -1,0 +1,431 @@
+dnsmasq: started, version 2.79 cachesize 150
+dnsmasq: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+dnsmasq-dhcp: DHCP, IP range 192.168.0.10 -- 192.168.0.200, lease time 8h
+dnsmasq: using nameserver 1.0.0.1#53
+dnsmasq: using nameserver 1.1.1.1#53
+dnsmasq: read /etc/hosts - 4 addresses
+dnsmasq-dhcp: 876537915 available DHCP range: 192.168.0.10 -- 192.168.0.200
+dnsmasq-dhcp: 876537915 client provides name: lucas-ubuntu
+dnsmasq-dhcp: 876537915 available DHCP range: 192.168.0.10 -- 192.168.0.200
+dnsmasq-dhcp: 876537915 client provides name: lucas-ubuntu
+dnsmasq-dhcp: 876537915 available DHCP range: 192.168.0.10 -- 192.168.0.200
+dnsmasq-dhcp: 876537915 client provides name: lucas-ubuntu
+dnsmasq-dhcp: 4183918390 available DHCP range: 192.168.0.10 -- 192.168.0.200
+dnsmasq-dhcp: 4183918390 client provides name: lucas-ubuntu
+dnsmasq-dhcp: 4183918390 DHCPDISCOVER(wlan0) 192.168.100.105 00:21:5d:ea:fe:be 
+dnsmasq-dhcp: 4183918390 tags: wlan0
+dnsmasq-dhcp: 4183918390 DHCPOFFER(wlan0) 192.168.0.156 00:21:5d:ea:fe:be 
+dnsmasq-dhcp: 4183918390 requested options: 1:netmask, 28:broadcast, 2:time-offset, 3:router, 
+dnsmasq-dhcp: 4183918390 requested options: 15:domain-name, 6:dns-server, 119:domain-search, 
+dnsmasq-dhcp: 4183918390 requested options: 12:hostname, 44:netbios-ns, 47:netbios-scope, 
+dnsmasq-dhcp: 4183918390 requested options: 26:mtu, 121:classless-static-route, 42:ntp-server
+dnsmasq-dhcp: 4183918390 next server: 192.168.0.1
+dnsmasq-dhcp: 4183918390 sent size:  1 option: 53 message-type  2
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 54 server-identifier  192.168.0.1
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 51 lease-time  8h
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 58 T1  4h
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 59 T2  7h
+dnsmasq-dhcp: 4183918390 sent size:  4 option:  1 netmask  255.255.255.0
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 28 broadcast  192.168.0.255
+dnsmasq-dhcp: 4183918390 sent size:  4 option:  6 dns-server  192.168.0.1
+dnsmasq-dhcp: 4183918390 sent size:  4 option:  3 router  192.168.0.1
+dnsmasq-dhcp: 4183918390 available DHCP range: 192.168.0.10 -- 192.168.0.200
+dnsmasq-dhcp: 4183918390 client provides name: lucas-ubuntu
+dnsmasq-dhcp: 4183918390 DHCPDISCOVER(wlan0) 192.168.100.105 00:21:5d:ea:fe:be 
+dnsmasq-dhcp: 4183918390 tags: wlan0
+dnsmasq-dhcp: 4183918390 DHCPOFFER(wlan0) 192.168.0.156 00:21:5d:ea:fe:be 
+dnsmasq-dhcp: 4183918390 requested options: 1:netmask, 28:broadcast, 2:time-offset, 3:router, 
+dnsmasq-dhcp: 4183918390 requested options: 15:domain-name, 6:dns-server, 119:domain-search, 
+dnsmasq-dhcp: 4183918390 requested options: 12:hostname, 44:netbios-ns, 47:netbios-scope, 
+dnsmasq-dhcp: 4183918390 requested options: 26:mtu, 121:classless-static-route, 42:ntp-server
+dnsmasq-dhcp: 4183918390 next server: 192.168.0.1
+dnsmasq-dhcp: 4183918390 sent size:  1 option: 53 message-type  2
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 54 server-identifier  192.168.0.1
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 51 lease-time  8h
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 58 T1  4h
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 59 T2  7h
+dnsmasq-dhcp: 4183918390 sent size:  4 option:  1 netmask  255.255.255.0
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 28 broadcast  192.168.0.255
+dnsmasq-dhcp: 4183918390 sent size:  4 option:  6 dns-server  192.168.0.1
+dnsmasq-dhcp: 4183918390 sent size:  4 option:  3 router  192.168.0.1
+dnsmasq-dhcp: 4183918390 available DHCP range: 192.168.0.10 -- 192.168.0.200
+dnsmasq-dhcp: 4183918390 client provides name: lucas-ubuntu
+dnsmasq-dhcp: 4183918390 DHCPREQUEST(wlan0) 192.168.0.156 00:21:5d:ea:fe:be 
+dnsmasq-dhcp: 4183918390 tags: wlan0
+dnsmasq-dhcp: 4183918390 DHCPACK(wlan0) 192.168.0.156 00:21:5d:ea:fe:be lucas-ubuntu
+dnsmasq-dhcp: 4183918390 requested options: 1:netmask, 28:broadcast, 2:time-offset, 3:router, 
+dnsmasq-dhcp: 4183918390 requested options: 15:domain-name, 6:dns-server, 119:domain-search, 
+dnsmasq-dhcp: 4183918390 requested options: 12:hostname, 44:netbios-ns, 47:netbios-scope, 
+dnsmasq-dhcp: 4183918390 requested options: 26:mtu, 121:classless-static-route, 42:ntp-server
+dnsmasq-dhcp: 4183918390 next server: 192.168.0.1
+dnsmasq-dhcp: 4183918390 sent size:  1 option: 53 message-type  5
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 54 server-identifier  192.168.0.1
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 51 lease-time  8h
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 58 T1  4h
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 59 T2  7h
+dnsmasq-dhcp: 4183918390 sent size:  4 option:  1 netmask  255.255.255.0
+dnsmasq-dhcp: 4183918390 sent size:  4 option: 28 broadcast  192.168.0.255
+dnsmasq-dhcp: 4183918390 sent size: 12 option: 12 hostname  lucas-ubuntu
+dnsmasq-dhcp: 4183918390 sent size:  4 option:  6 dns-server  192.168.0.1
+dnsmasq-dhcp: 4183918390 sent size:  4 option:  3 router  192.168.0.1
+dnsmasq: query[A] beacons5.gvt3.com from 192.168.0.156
+dnsmasq: forwarded beacons5.gvt3.com to 1.0.0.1
+dnsmasq: forwarded beacons5.gvt3.com to 1.1.1.1
+dnsmasq: reply beacons5.gvt3.com is 104.237.191.1
+dnsmasq: query[AAAA] beacons5.gvt3.com from 192.168.0.156
+dnsmasq: forwarded beacons5.gvt3.com to 1.0.0.1
+dnsmasq: reply beacons5.gvt3.com is 2620:11a:a0f0::1
+dnsmasq: query[A] mtalk.google.com from 192.168.0.156
+dnsmasq: forwarded mtalk.google.com to 1.0.0.1
+dnsmasq: query[A] www.google.com from 192.168.0.156
+dnsmasq: forwarded www.google.com to 1.0.0.1
+dnsmasq: query[AAAA] www.google.com from 192.168.0.156
+dnsmasq: forwarded www.google.com to 1.0.0.1
+dnsmasq: reply mtalk.google.com is <CNAME>
+dnsmasq: reply mobile-gtalk.l.google.com is 64.233.186.188
+dnsmasq: query[AAAA] mobile-gtalk.l.google.com from 192.168.0.156
+dnsmasq: forwarded mobile-gtalk.l.google.com to 1.0.0.1
+dnsmasq: reply www.google.com is 172.217.29.100
+dnsmasq: reply www.google.com is 2800:3f0:4004:808::2004
+dnsmasq: query[AAAA] mobile-gtalk.l.google.com from 192.168.0.156
+dnsmasq: forwarded mobile-gtalk.l.google.com to 1.1.1.1
+dnsmasq: forwarded mobile-gtalk.l.google.com to 1.0.0.1
+dnsmasq: reply mobile-gtalk.l.google.com is 2800:3f0:4003:c00::bc
+dnsmasq: query[A] clients4.google.com from 192.168.0.156
+dnsmasq: forwarded clients4.google.com to 1.0.0.1
+dnsmasq: query[AAAA] clients4.google.com from 192.168.0.156
+dnsmasq: forwarded clients4.google.com to 1.0.0.1
+dnsmasq: reply clients4.google.com is <CNAME>
+dnsmasq: reply clients.l.google.com is 216.58.202.14
+dnsmasq: reply clients4.google.com is <CNAME>
+dnsmasq: reply clients.l.google.com is 2800:3f0:4001:80d::200e
+dnsmasq: query[A] daisy.ubuntu.com from 192.168.0.156
+dnsmasq: forwarded daisy.ubuntu.com to 1.0.0.1
+dnsmasq: query[AAAA] daisy.ubuntu.com from 192.168.0.156
+dnsmasq: forwarded daisy.ubuntu.com to 1.0.0.1
+dnsmasq: reply daisy.ubuntu.com is 162.213.33.164
+dnsmasq: reply daisy.ubuntu.com is 162.213.33.133
+dnsmasq: reply daisy.ubuntu.com is NODATA-IPv6
+dnsmasq: query[A] imap.gmail.com from 192.168.0.156
+dnsmasq: forwarded imap.gmail.com to 1.0.0.1
+dnsmasq: forwarded imap.gmail.com to 1.1.1.1
+dnsmasq: query[AAAA] imap.gmail.com from 192.168.0.156
+dnsmasq: forwarded imap.gmail.com to 1.0.0.1
+dnsmasq: reply imap.gmail.com is <CNAME>
+dnsmasq: reply gmail-imap.l.google.com is 64.233.186.109
+dnsmasq: reply gmail-imap.l.google.com is 64.233.186.108
+dnsmasq: reply imap.gmail.com is <CNAME>
+dnsmasq: reply gmail-imap.l.google.com is 2800:3f0:4003:c00::6c
+dnsmasq: query[A] connectivity-check.ubuntu.com from 192.168.0.156
+dnsmasq: forwarded connectivity-check.ubuntu.com to 1.0.0.1
+dnsmasq: forwarded connectivity-check.ubuntu.com to 1.1.1.1
+dnsmasq: query[AAAA] connectivity-check.ubuntu.com from 192.168.0.156
+dnsmasq: forwarded connectivity-check.ubuntu.com to 1.0.0.1
+dnsmasq: reply connectivity-check.ubuntu.com is 104.198.143.177
+dnsmasq: reply connectivity-check.ubuntu.com is 104.197.3.80
+dnsmasq: reply connectivity-check.ubuntu.com is NODATA-IPv6
+dnsmasq: query[AAAA] gmail-imap.l.google.com from 192.168.0.156
+dnsmasq: forwarded gmail-imap.l.google.com to 1.0.0.1
+dnsmasq: reply gmail-imap.l.google.com is 2800:3f0:4003:c00::6d
+dnsmasq: query[A] id.getmailspring.com from 192.168.0.156
+dnsmasq: forwarded id.getmailspring.com to 1.0.0.1
+dnsmasq: forwarded id.getmailspring.com to 1.1.1.1
+dnsmasq: query[AAAA] id.getmailspring.com from 192.168.0.156
+dnsmasq: forwarded id.getmailspring.com to 1.0.0.1
+dnsmasq: reply id.getmailspring.com is 52.21.74.178
+dnsmasq: reply id.getmailspring.com is 54.84.89.113
+dnsmasq: reply id.getmailspring.com is 34.198.35.221
+dnsmasq: reply id.getmailspring.com is NODATA-IPv6
+dnsmasq: query[A] beacons.gvt2.com from 192.168.0.156
+dnsmasq: forwarded beacons.gvt2.com to 1.0.0.1
+dnsmasq: forwarded beacons.gvt2.com to 1.1.1.1
+dnsmasq: query[AAAA] beacons.gvt2.com from 192.168.0.156
+dnsmasq: forwarded beacons.gvt2.com to 1.0.0.1
+dnsmasq: reply beacons.gvt2.com is 172.217.29.99
+dnsmasq: query[AAAA] beacons.gvt2.com from 192.168.0.156
+dnsmasq: forwarded beacons.gvt2.com to 1.1.1.1
+dnsmasq: forwarded beacons.gvt2.com to 1.0.0.1
+dnsmasq: reply beacons.gvt2.com is 2800:3f0:4001:80d::2003
+dnsmasq: query[A] www.google.com.br from 192.168.0.156
+dnsmasq: forwarded www.google.com.br to 1.0.0.1
+dnsmasq: forwarded www.google.com.br to 1.1.1.1
+dnsmasq: query[AAAA] www.google.com.br from 192.168.0.156
+dnsmasq: forwarded www.google.com.br to 1.0.0.1
+dnsmasq: reply www.google.com.br is 216.58.222.3
+dnsmasq: reply www.google.com.br is 2800:3f0:4001:80b::2003
+dnsmasq: query[A] api.momentumdash.com from 192.168.0.156
+dnsmasq: forwarded api.momentumdash.com to 1.0.0.1
+dnsmasq: query[AAAA] api.momentumdash.com from 192.168.0.156
+dnsmasq: forwarded api.momentumdash.com to 1.0.0.1
+dnsmasq: query[A] www.googleapis.com from 192.168.0.156
+dnsmasq: forwarded www.googleapis.com to 1.0.0.1
+dnsmasq: query[AAAA] www.googleapis.com from 192.168.0.156
+dnsmasq: forwarded www.googleapis.com to 1.0.0.1
+dnsmasq: reply www.googleapis.com is <CNAME>
+dnsmasq: reply googleapis.l.google.com is 216.58.222.106
+dnsmasq: reply googleapis.l.google.com is 216.58.222.74
+dnsmasq: reply googleapis.l.google.com is 172.217.162.170
+dnsmasq: reply googleapis.l.google.com is 172.217.29.42
+dnsmasq: reply googleapis.l.google.com is 172.217.30.10
+dnsmasq: reply googleapis.l.google.com is 216.58.202.234
+dnsmasq: reply googleapis.l.google.com is 172.217.29.106
+dnsmasq: reply www.googleapis.com is <CNAME>
+dnsmasq: reply googleapis.l.google.com is 2800:3f0:4001:808::200a
+dnsmasq: reply api.momentumdash.com is <CNAME>
+dnsmasq: reply k8s-ingress-westus-1.momentumdash.com is 138.91.254.234
+dnsmasq: reply api.momentumdash.com is <CNAME>
+dnsmasq: reply k8s-ingress-westus-1.momentumdash.com is NODATA-IPv6
+dnsmasq: query[AAAA] k8s-ingress-westus-1.momentumdash.com from 192.168.0.156
+dnsmasq: cached k8s-ingress-westus-1.momentumdash.com is NODATA-IPv6
+dnsmasq: query[A] transorg.herokuapp.com from 192.168.0.156
+dnsmasq: forwarded transorg.herokuapp.com to 1.0.0.1
+dnsmasq: query[AAAA] transorg.herokuapp.com from 192.168.0.156
+dnsmasq: forwarded transorg.herokuapp.com to 1.0.0.1
+dnsmasq: reply transorg.herokuapp.com is <CNAME>
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.22.229.175
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.23.145.93
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.204.24.48
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.206.106.171
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.205.45.40
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.54.48.82
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.5.89.216
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.205.227.252
+dnsmasq: reply transorg.herokuapp.com is <CNAME>
+dnsmasq: reply us-east-1-a.route.herokuapp.com is NODATA-IPv6
+dnsmasq: query[AAAA] us-east-1-a.route.herokuapp.com from 192.168.0.156
+dnsmasq: cached us-east-1-a.route.herokuapp.com is NODATA-IPv6
+dnsmasq: query[A] query.yahooapis.com from 192.168.0.156
+dnsmasq: forwarded query.yahooapis.com to 1.0.0.1
+dnsmasq: query[AAAA] query.yahooapis.com from 192.168.0.156
+dnsmasq: forwarded query.yahooapis.com to 1.0.0.1
+dnsmasq: reply query.yahooapis.com is <CNAME>
+dnsmasq: reply a1-ds.ue.queryyahooapiscom.g04.yahoodns.net is 76.13.28.196
+dnsmasq: reply query.yahooapis.com is <CNAME>
+dnsmasq: reply a1-ds.ue.queryyahooapiscom.g04.yahoodns.net is 2001:4998:58:4904::4000
+dnsmasq: query[A] www.gstatic.com from 192.168.0.156
+dnsmasq: forwarded www.gstatic.com to 1.0.0.1
+dnsmasq: query[AAAA] www.gstatic.com from 192.168.0.156
+dnsmasq: forwarded www.gstatic.com to 1.0.0.1
+dnsmasq: reply www.gstatic.com is 172.217.162.163
+dnsmasq: reply www.gstatic.com is 2800:3f0:4001:80e::2003
+dnsmasq: query[A] clients.l.google.com from 192.168.0.156
+dnsmasq: forwarded clients.l.google.com to 1.0.0.1
+dnsmasq: reply clients.l.google.com is 172.217.30.46
+dnsmasq: query[A] captive.apple.com from 192.168.0.156
+dnsmasq: forwarded captive.apple.com to 1.0.0.1
+dnsmasq: forwarded captive.apple.com to 1.1.1.1
+dnsmasq: query[A] ipv4.icanhazip.com from 192.168.0.156
+dnsmasq: forwarded ipv4.icanhazip.com to 1.0.0.1
+dnsmasq: query[A] id.getmailspring.com from 192.168.0.156
+dnsmasq: forwarded id.getmailspring.com to 1.0.0.1
+dnsmasq: reply captive.apple.com is <CNAME>
+dnsmasq: reply captive-cidr.origin-apple.com.akadns.net is <CNAME>
+dnsmasq: reply captive-cdn.origin-apple.com.akadns.net is <CNAME>
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: reply ipv4.icanhazip.com is 69.162.69.148
+dnsmasq: reply ipv4.icanhazip.com is 69.162.69.150
+dnsmasq: reply ipv4.icanhazip.com is 69.162.69.147
+dnsmasq: reply ipv4.icanhazip.com is 69.162.69.149
+dnsmasq: reply id.getmailspring.com is 54.84.89.113
+dnsmasq: reply id.getmailspring.com is 34.198.35.221
+dnsmasq: reply id.getmailspring.com is 52.21.74.178
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] us-east-1-a.route.herokuapp.com from 192.168.0.156
+dnsmasq: forwarded us-east-1-a.route.herokuapp.com to 1.0.0.1
+dnsmasq: query[AAAA] us-east-1-a.route.herokuapp.com from 192.168.0.156
+dnsmasq: forwarded us-east-1-a.route.herokuapp.com to 1.0.0.1
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 34.231.64.128
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 34.236.79.131
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 34.225.198.210
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 34.226.46.72
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 35.168.78.223
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 34.237.148.235
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 34.235.5.195
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 34.231.14.184
+dnsmasq: reply us-east-1-a.route.herokuapp.com is NODATA-IPv6
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] safebrowsing.googleapis.com from 192.168.0.156
+dnsmasq: forwarded safebrowsing.googleapis.com to 1.1.1.1
+dnsmasq: query[AAAA] safebrowsing.googleapis.com from 192.168.0.156
+dnsmasq: forwarded safebrowsing.googleapis.com to 1.1.1.1
+dnsmasq: reply safebrowsing.googleapis.com is 172.217.162.170
+dnsmasq: query[AAAA] safebrowsing.googleapis.com from 192.168.0.156
+dnsmasq: forwarded safebrowsing.googleapis.com to 1.0.0.1
+dnsmasq: forwarded safebrowsing.googleapis.com to 1.1.1.1
+dnsmasq: reply safebrowsing.googleapis.com is 2800:3f0:4001:80b::200a
+dnsmasq: query[A] www.google.com.br from 192.168.0.156
+dnsmasq: forwarded www.google.com.br to 1.0.0.1
+dnsmasq: forwarded www.google.com.br to 1.1.1.1
+dnsmasq: query[A] beacons.gcp.gvt2.com from 192.168.0.156
+dnsmasq: forwarded beacons.gcp.gvt2.com to 1.1.1.1
+dnsmasq: query[AAAA] beacons.gcp.gvt2.com from 192.168.0.156
+dnsmasq: forwarded beacons.gcp.gvt2.com to 1.1.1.1
+dnsmasq: reply www.google.com.br is 216.58.202.3
+dnsmasq: reply beacons.gcp.gvt2.com is <CNAME>
+dnsmasq: reply beacons-handoff.gcp.gvt2.com is 172.217.162.163
+dnsmasq: reply beacons.gcp.gvt2.com is <CNAME>
+dnsmasq: reply beacons-handoff.gcp.gvt2.com is <CNAME>
+dnsmasq: reply gce-beacons.gcp.gvt2.com is NODATA-IPv6
+dnsmasq: query[AAAA] gce-beacons.gcp.gvt2.com from 192.168.0.156
+dnsmasq: cached gce-beacons.gcp.gvt2.com is NODATA-IPv6
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] id.getmailspring.com from 192.168.0.156
+dnsmasq: forwarded id.getmailspring.com to 1.0.0.1
+dnsmasq: forwarded id.getmailspring.com to 1.1.1.1
+dnsmasq: reply id.getmailspring.com is 54.84.89.113
+dnsmasq: reply id.getmailspring.com is 34.198.35.221
+dnsmasq: reply id.getmailspring.com is 52.21.74.178
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] captive-cidr.origin-apple.com.akadns.net from 192.168.0.156
+dnsmasq: forwarded captive-cidr.origin-apple.com.akadns.net to 1.0.0.1
+dnsmasq: forwarded captive-cidr.origin-apple.com.akadns.net to 1.1.1.1
+dnsmasq: reply captive-cidr.origin-apple.com.akadns.net is <CNAME>
+dnsmasq: reply captive-cdn.origin-apple.com.akadns.net is <CNAME>
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] captive.apple.com from 192.168.0.156
+dnsmasq: forwarded captive.apple.com to 1.0.0.1
+dnsmasq: forwarded captive.apple.com to 1.1.1.1
+dnsmasq: reply captive.apple.com is <CNAME>
+dnsmasq: reply captive-cidr.origin-apple.com.akadns.net is <CNAME>
+dnsmasq: reply captive-cdn.origin-apple.com.akadns.net is <CNAME>
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] transorg.herokuapp.com from 192.168.0.156
+dnsmasq: forwarded transorg.herokuapp.com to 1.0.0.1
+dnsmasq: forwarded transorg.herokuapp.com to 1.1.1.1
+dnsmasq: query[AAAA] transorg.herokuapp.com from 192.168.0.156
+dnsmasq: forwarded transorg.herokuapp.com to 1.0.0.1
+dnsmasq: reply transorg.herokuapp.com is <CNAME>
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.202.245.247
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.203.173.99
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.7.159.199
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.6.63.110
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.204.24.48
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.202.145.232
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.55.41.219
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.20.65.241
+dnsmasq: reply transorg.herokuapp.com is <CNAME>
+dnsmasq: reply us-east-1-a.route.herokuapp.com is NODATA-IPv6
+dnsmasq: query[AAAA] us-east-1-a.route.herokuapp.com from 192.168.0.156
+dnsmasq: cached us-east-1-a.route.herokuapp.com is NODATA-IPv6
+dnsmasq: query[AAAA] us-east-1-a.route.herokuapp.com from 192.168.0.156
+dnsmasq: cached us-east-1-a.route.herokuapp.com is NODATA-IPv6
+dnsmasq: query[A] captive-cdn.origin-apple.com.akadns.net from 192.168.0.156
+dnsmasq: forwarded captive-cdn.origin-apple.com.akadns.net to 1.0.0.1
+dnsmasq: query[A] ipv4.icanhazip.com from 192.168.0.156
+dnsmasq: forwarded ipv4.icanhazip.com to 1.0.0.1
+dnsmasq: reply captive-cdn.origin-apple.com.akadns.net is <CNAME>
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: reply ipv4.icanhazip.com is 69.162.69.148
+dnsmasq: reply ipv4.icanhazip.com is 69.162.69.150
+dnsmasq: reply ipv4.icanhazip.com is 69.162.69.147
+dnsmasq: reply ipv4.icanhazip.com is 69.162.69.149
+dnsmasq: query[A] e7279.dsce9.akamaiedge.net from 192.168.0.156
+dnsmasq: forwarded e7279.dsce9.akamaiedge.net to 1.0.0.1
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] e7279.dsce9.akamaiedge.net from 192.168.0.156
+dnsmasq: forwarded e7279.dsce9.akamaiedge.net to 1.0.0.1
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] id.getmailspring.com from 192.168.0.156
+dnsmasq: forwarded id.getmailspring.com to 1.0.0.1
+dnsmasq: reply id.getmailspring.com is 34.198.35.221
+dnsmasq: reply id.getmailspring.com is 52.21.74.178
+dnsmasq: reply id.getmailspring.com is 54.84.89.113
+dnsmasq: query[A] www.gstatic.com from 192.168.0.156
+dnsmasq: forwarded www.gstatic.com to 1.0.0.1
+dnsmasq: query[AAAA] www.gstatic.com from 192.168.0.156
+dnsmasq: forwarded www.gstatic.com to 1.0.0.1
+dnsmasq: reply www.gstatic.com is 172.217.30.99
+dnsmasq: reply www.gstatic.com is 2800:3f0:4004:809::2003
+dnsmasq: query[A] transports-rest-api.herokuapp.com from 192.168.0.156
+dnsmasq: forwarded transports-rest-api.herokuapp.com to 1.0.0.1
+dnsmasq: query[AAAA] transports-rest-api.herokuapp.com from 192.168.0.156
+dnsmasq: forwarded transports-rest-api.herokuapp.com to 1.0.0.1
+dnsmasq: reply transports-rest-api.herokuapp.com is <CNAME>
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.202.145.232
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.6.63.110
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.203.173.99
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.20.65.241
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.204.24.48
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.7.159.199
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.202.245.247
+dnsmasq: reply us-east-1-a.route.herokuapp.com is 52.55.41.219
+dnsmasq: reply transports-rest-api.herokuapp.com is <CNAME>
+dnsmasq: reply us-east-1-a.route.herokuapp.com is NODATA-IPv6
+dnsmasq: query[AAAA] us-east-1-a.route.herokuapp.com from 192.168.0.156
+dnsmasq: cached us-east-1-a.route.herokuapp.com is NODATA-IPv6
+dnsmasq: query[A] clients4.google.com from 192.168.0.156
+dnsmasq: forwarded clients4.google.com to 1.0.0.1
+dnsmasq: query[AAAA] clients4.google.com from 192.168.0.156
+dnsmasq: forwarded clients4.google.com to 1.0.0.1
+dnsmasq: reply clients4.google.com is <CNAME>
+dnsmasq: reply clients.l.google.com is 2800:3f0:4001:802::200e
+dnsmasq: reply clients4.google.com is <CNAME>
+dnsmasq: reply clients.l.google.com is 172.217.30.110
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
+dnsmasq: query[A] captive.g.aaplimg.com from 192.168.0.156
+dnsmasq: forwarded captive.g.aaplimg.com to 1.0.0.1
+dnsmasq: forwarded captive.g.aaplimg.com to 1.1.1.1
+dnsmasq: reply captive.g.aaplimg.com is <CNAME>
+dnsmasq: reply captive.apple.com.edgekey.net is <CNAME>
+dnsmasq: reply e7279.dsce9.akamaiedge.net is 184.26.189.250
