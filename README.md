@@ -44,13 +44,14 @@ Then **disable hardware encryption** using the script ./disable-hwcrypto.sh. It'
  * `usb0`: interface in which is provided internet access
  * `"Familia Couto"`: SSID of the target network
  * `-t 00:21:5d:ea:fe:be`: MAC address of the attacked client
- * You can see many other options running `./krackattack -h`!
+ * You can see many other options running `./krackattack/krack_all_zero_tk.py -h`!
  
  **warnings!**
  * Remember to disable the Wi-Fi before running the script!
  * After disabling the Wi-Fi, run the command: `$rfkill unblock wifi`!
  
  **Files Generated**
+ 
  After running the script for the first time, some new files will be generated:
  
  * `dnsmasq.conf`: configuration file for DHCP and DNS services
